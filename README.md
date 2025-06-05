@@ -1,97 +1,95 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# 라사 카레하우스 매장 관리 시스템
 
-# Getting Started
+카레 전문점을 위한 통합 매장 관리 시스템
+재고 관리, 판매 등록, 생산 계획 관리
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+## 📋 프로젝트 소개
 
-## Step 1: Start Metro
+라사 카레하우스 매장 관리 시스템은 카레 전문점의 일상 업무를 효율적으로 관리할 수 있는 모바일 애플리케이션입니다. 판매 등록부터 재고 관리, 생산 계획까지 통합적으로 관리할 수 있는 솔루션을 제공합니다.
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+이 애플리케이션은 React Native로 개발되어 Android 플랫폼에서 사용할 수 있으며, 오프라인 환경에서도 원활하게 작동합니다.
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+## ✨ 주요 기능
 
-```sh
-# Using npm
-npm start
+- **인증 시스템**: 안전한 로그인 및 사용자 관리 ( 요번 프로젝트에서는 관리자 계정으로 진행 )
+- **대시보드**: 매출, 재고, 생산 현황을 한눈에 파악
+- **판매 관리**: 간편한 메뉴 선택 및 판매 등록, 커스텀 메뉴 추가 기능
+- **재고 관리**: 카레, 음료 등 재고 실시간 확인 및 관리
+- **생산 계획**: 재고 부족 시 자동 생산 계획 생성 및 진행 관리
+- **다크/라이트 모드**: 사용 환경에 맞는 테마 설정
 
-# OR using Yarn
-yarn start
+## 🛠️ 기술 스택
+
+- **프론트엔드**: React Native, TypeScript
+- **상태 관리**: Redux, Redux Toolkit
+- **스타일링**: React Native StyleSheet
+- **로컬 저장소**: AsyncStorage
+- **API 통신**: Axios (목업 API 사용)
+
+## 📁 프로젝트 구조
+
+```
+/src
+  /components        # 재사용 가능한 UI 컴포넌트
+    /common          # 공통 컴포넌트 (모달, 메뉴 등)
+  /screens           # 주요 화면 컴포넌트
+    /auth            # 인증 관련 화면
+  /store             # Redux 상태 관리
+    /slices          # Redux 슬라이스
+  /services          # API 및 로컬 데이터 관리
+  /utils             # 유틸리티 함수
+  /types             # TypeScript 타입 정의
+  /navigation        # 네비게이션 구성
 ```
 
-## Step 2: Build and run your app
+## 🚀 주요 개선 사항
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+### 1. 대시보드 화면 개선
+- 실제 판매/재고 데이터 반영 통계 구현
+- 소수점 표시 최적화 (소수점 첫째 자리까지만 표시)
+- 데이터 시각화 개선
 
-### Android
+### 2. 판매 등록 화면 개선
+- 직관적인 제품 선택 UI 
+- 카테고리별 필터링 및 검색 기능
+- 새 메뉴 추가 기능 (현장에서 즉시 추가 가능)
+- 수량 조절 UI 개선 (버튼 및 입력 필드 크기 최적화)
+- 쇼핑카트 형태의 선택 제품 목록 인터페이스
 
-```sh
-# Using npm
-npm run android
+### 3. 데이터 포맷 최적화
+- 소수점 처리 유틸리티 함수 구현
+- 화폐 및 수량 표시 일관성 유지
+- 정수는 소수점 없이, 소수는 첫째 자리까지만 표시
 
-# OR using Yarn
-yarn android
-```
+### 4. 재고 관리 시스템 강화
+- 제품 유형별 재고 차감 로직 개선 (커리, 음료, 콤보)
+- 임시 추가 메뉴에 대한 재고 처리 방식 추가
+- 재고 부족 시 자동 생산 계획 생성
 
-### iOS
+## 📥 설치 및 실행 방법
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
+### 요구 사항
+- Node.js (14.x 이상)
+- npm 또는 yarn
+- React Native CLI
+- iOS 개발: Xcode (Mac 필요)
+- Android 개발: Android Studio
 
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
+## 🖼️ 주요 화면
 
-```sh
-bundle install
-```
+- **로그인 화면**: 안전한 사용자 인증
+- **홈 화면**: 실시간 현황 및 주요 메뉴 접근
+- **대시보드**: 매출 통계 및 차트
+- **판매 등록**: 메뉴 선택 및 주문 생성
+- **재고 관리**: 제품별 재고 확인 및 관리
+- **생산 계획**: 생산 일정 및 진행 상황 관리
 
-Then, and every time you update your native dependencies, run:
+## 🔒 인증 정보 (개발용)
 
-```sh
-bundle exec pod install
-```
+개발 및 테스트 목적으로 다음 계정을 사용할 수 있습니다:
+- 아이디: admin
+- 비밀번호: password
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
+## 📝 라이센스
 
-```sh
-# Using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
-
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
-
-## Step 3: Modify your app
-
-Now that you have successfully run the app, let's make changes!
-
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
-
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
-
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+[MIT](LICENSE) © 라사 카레하우스
