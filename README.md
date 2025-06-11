@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/d85f1ebc-45e6-44d6-822c-710bfc210ee9)# 라사 카레하우스 매장 관리 시스템
+라사 카레하우스 매장 관리 시스템
 
 카레 전문점을 위한 통합 매장 관리 시스템
 재고 관리, 판매 등록, 생산 계획 관리
@@ -79,7 +79,7 @@
 
 - **로그인 화면**
 - **홈 화면**: 실시간 현황 및 주요 메뉴 접근
-- ![image](https://github.com/user-attachments/assets/1fdea603-67fa-4225-830b-3d674ac48793)
+![수정](https://github.com/user-attachments/assets/8069dc46-4f07-44c0-b66c-94c9804e5c39)
 - **대시보드**: 매출 통계 및 차트
 - **판매 등록**: 메뉴 선택 및 주문 생성
 - **재고 관리**: 제품별 재고 확인 및 관리
