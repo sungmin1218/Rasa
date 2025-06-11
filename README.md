@@ -82,10 +82,17 @@
 
 ![수정](https://github.com/user-attachments/assets/b81e3431-d056-4104-90ba-c47b790d0ca8)
 
-![홈화면2](https://github.com/user-attachments/assets/36820a15-4a8d-4ee6-b7e7-e0169941c443)
-
+![홈화면 3](https://github.com/user-attachments/assets/1ecfc958-b044-474d-b9c1-133dff103aa8)
 
 - **대시보드**: 매출 통계 및 차트
+
+![대시보드_1](https://github.com/user-attachments/assets/c35ab8ca-44fd-4473-86d1-ee4babebda2c)
+
+![대시보드_2](https://github.com/user-attachments/assets/2ee8452b-ac2c-4906-aa85-e75d3c4b9669)
+
+![대시보드_3](https://github.com/user-attachments/assets/44d6a108-e6bd-42aa-8e75-7310d88a6565)
+
+
 - **판매 등록**: 메뉴 선택 및 주문 생성
 - **재고 관리**: 제품별 재고 확인 및 관리
 - **생산 계획**: 생산 일정 및 진행 상황 관리
