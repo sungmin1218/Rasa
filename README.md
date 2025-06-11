@@ -82,6 +82,8 @@
 
 - ![수정](https://github.com/user-attachments/assets/b81e3431-d056-4104-90ba-c47b790d0ca8)
 
+- ![홈화면](https://github.com/user-attachments/assets/c52e2731-2bcc-431c-ab99-937a60018651)
+
 - **대시보드**: 매출 통계 및 차트
 - **판매 등록**: 메뉴 선택 및 주문 생성
 - **재고 관리**: 제품별 재고 확인 및 관리
