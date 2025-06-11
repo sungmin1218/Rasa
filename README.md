@@ -84,16 +84,19 @@
 
 - **대시보드**: 매출 통계 및 차트
 
-![대시보드_1](https://github.com/user-attachments/assets/c35ab8ca-44fd-4473-86d1-ee4babebda2c)
-
-![대시보드_2](https://github.com/user-attachments/assets/2ee8452b-ac2c-4906-aa85-e75d3c4b9669)
-
-![대시보드_3](https://github.com/user-attachments/assets/44d6a108-e6bd-42aa-8e75-7310d88a6565)
-
+![대시보드_1](https://github.com/user-attachments/assets/c35ab8ca-44fd-4473-86d1-ee4babebda2c) ![대시보드_2](https://github.com/user-attachments/assets/2ee8452b-ac2c-4906-aa85-e75d3c4b9669) ![대시보드_3](https://github.com/user-attachments/assets/44d6a108-e6bd-42aa-8e75-7310d88a6565)
 
 - **판매 등록**: 메뉴 선택 및 주문 생성
+
+![판매등록1](https://github.com/user-attachments/assets/7802e5e5-8b9a-4868-9bac-cc1743618fb3) ![판매등록2](https://github.com/user-attachments/assets/ddca1c92-2009-4b3e-8112-53c371a199f6) ![판매등록3](https://github.com/user-attachments/assets/229985aa-4b6a-43d7-9f1d-3539500dccf8)
+
 - **재고 관리**: 제품별 재고 확인 및 관리
+
+![재고관리1](https://github.com/user-attachments/assets/11bf2ee3-cc32-4215-8b7d-a38db335ed41) ![재고](https://github.com/user-attachments/assets/396c3eaa-f570-4f29-a520-40efe5375a4e)
+
 - **생산 계획**: 생산 일정 및 진행 상황 관리
+
+![생산 관리 1](https://github.com/user-attachments/assets/59f631dc-5e05-4766-a275-6ae4c1176d4d) ![생산 관리 2](https://github.com/user-attachments/assets/3c57eefb-8de5-402d-ba96-ca0728d04c88)
 
 ## 🔒 인증 정보 (개발용)
 
