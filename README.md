@@ -80,9 +80,7 @@
 - **로그인 화면**
 - **홈 화면**: 실시간 현황 및 주요 메뉴 접근
 
-![수정](https://github.com/user-attachments/assets/b81e3431-d056-4104-90ba-c47b790d0ca8)
-
-![홈화면 3](https://github.com/user-attachments/assets/1ecfc958-b044-474d-b9c1-133dff103aa8)
+![수정](https://github.com/user-attachments/assets/b81e3431-d056-4104-90ba-c47b790d0ca8) ![홈화면 3](https://github.com/user-attachments/assets/1ecfc958-b044-474d-b9c1-133dff103aa8)
 
 - **대시보드**: 매출 통계 및 차트
 
