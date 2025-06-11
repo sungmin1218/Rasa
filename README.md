@@ -79,7 +79,9 @@
 
 - **로그인 화면**
 - **홈 화면**: 실시간 현황 및 주요 메뉴 접근
-![수정](https://github.com/user-attachments/assets/8069dc46-4f07-44c0-b66c-94c9804e5c39)
+
+- ![수정](https://github.com/user-attachments/assets/b81e3431-d056-4104-90ba-c47b790d0ca8)
+
 - **대시보드**: 매출 통계 및 차트
 - **판매 등록**: 메뉴 선택 및 주문 생성
 - **재고 관리**: 제품별 재고 확인 및 관리
