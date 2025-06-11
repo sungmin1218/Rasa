@@ -80,9 +80,10 @@
 - **로그인 화면**
 - **홈 화면**: 실시간 현황 및 주요 메뉴 접근
 
-- ![수정](https://github.com/user-attachments/assets/b81e3431-d056-4104-90ba-c47b790d0ca8)
+![수정](https://github.com/user-attachments/assets/b81e3431-d056-4104-90ba-c47b790d0ca8)
 
-- ![홈화면](https://github.com/user-attachments/assets/c52e2731-2bcc-431c-ab99-937a60018651)
+![홈화면2](https://github.com/user-attachments/assets/36820a15-4a8d-4ee6-b7e7-e0169941c443)
+
 
 - **대시보드**: 매출 통계 및 차트
 - **판매 등록**: 메뉴 선택 및 주문 생성
